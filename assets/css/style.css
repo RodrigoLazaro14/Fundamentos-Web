@@ -24,7 +24,7 @@
 }
 
 #menu li a:hover {
-  color: blueviolet;
+  color: rgb(111, 86, 255);
   font-size: 20px;
 }
 
@@ -54,21 +54,6 @@
   margin-bottom: 50px;
 }
 
-/*---------------------------- TESTE ---------------------------*/
-/*
-table {
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8) 0%,
-      rgba(255, 255, 255, 0.8) 100%
-    ),
-    url("assets/img/home/alliancex2");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 200px;
-  height: 200px;
-}
-*/
-
 body,
 html {
   height: 100%;
@@ -77,12 +62,32 @@ html {
 
 .bg {
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8) 0%,
-      rgba(255, 255, 255, 0.8) 100%
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 100%
     ),
-    url(../img/alliancex2.jpg);
+    url(../img/alliancex3.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 150%;
+  background-size: 100% 110%;
   background-position: center;
   background-attachment: fixed;
+}
+
+/* Estilo guildraid - paginas dentro desta */
+.m-30 {
+  margin: 30px;
+}
+.wh-dragon {
+  width: 393px;
+  height: 398px;
+}
+.wh-tela {
+  width: 600px;
+  height: 350px;
+}
+
+.cont-char {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
 }
